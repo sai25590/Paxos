@@ -14,9 +14,8 @@ Running Instructions:
 1)Download and import the project to eclipse
 2) Run the Test.java file from the Test package.
 
-Where to go from here?
-
 Things which could be done:
+
 1) You can add many more test cases to Test.java. 
 2) You can manipulate the way the messages or sent among processes. This can be done by tweaking the implementation of TestChannel.java and TestNetwork.java. For example you can delay, reorder or drop a message. For paxos to work properly, you must not manipulate the message contents. 
 
